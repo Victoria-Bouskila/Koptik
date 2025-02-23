@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f8f9fa;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #333;
+  color: white;
+  margin-top: 3rem;
+}
+
+ul {
+  list-style-position: inside;
+  margin: 1rem 0;
+}
+
+li {
+  margin: 0.5rem 0;
+}
